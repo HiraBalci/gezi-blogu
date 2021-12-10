@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gezi Sitesi</title>
+  </head>
+  <body>
+    <nav class="navbar bg-primary navbar-expand-sm navbar-dark fixed-top">
+      <div class="container">
+        <a href="/" class="navbar-brand"
+          ><i class="fas fa-blog"></i>&nbsp;Gezi Blog Sayfası</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Hakkımda" class="nav-link active">Hakkımda</a>
+            </li>
+            <li class="nav-item">
+              <a href="#İletişim" class="nav-link active">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="jumbotron bg-primary text-white">
+        <div class="container">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 font-italic">
+              Ölmeden Önce Muhakkak ki Görmeniz Gereken Yerler
+            </h1>
+            <p class="lead my-3">
+              Türkiye’de ve Dünya'da merak edilen rotalar, bol aksiyonlu
+              destinasyonlar, macera dolu seyahatler ve çok daha fazlası gezi
+              blogu formatında özenle hazırladığım Gezi Sitesi içerikleri bu
+              blogta mevcuttur :) Bazı yerler hepimizin bildiği gitmek istediği
+              bazılarıda adını dahi duymadığınız yerler olabilir ama muhakkak ki
+              görmeniz gereken yerleri özenle paylaşmaya çalıştım.Umarım
+              beğenirsiniz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div id="slider1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider2"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider2" data-slide-to="1"></li>
+                <li data-target="#slider2" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/santorini/a26d2344d1a83a9cc539960446f1522e.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/santorini/06c2853f8af4ca87775ffd9a9a8cc0c1.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/santorini/santorini_16_9_1539602067.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a href="#slider1" class="carousel-control-prev" data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a href="#slider1" class="carousel-control-next" data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">Santorini,Yunanistan</h4>
+                <p class="card-text">
+                  Bu ikonik manzara Avrupa'yı ziyaret eden gezginler için
+                  popüler bir tatil yeri haline geldi.Mavi çatılar ve beyaz
+                  binalar Yunanistan'ın yerel kültürünün bir parçası haline
+                  geldi.1930'larda Yunan hükümeti,antibakteriyel özellikleri
+                  nedeniyle tüm binların kireçle boyanmasını zorunlu
+                  kıldı.Yıllar sonra Yunanlılar maviyi ekledi ve sevdiğimiz
+                  kartpostal manzarasını yaratmak için Yunanistan bayrağıyla
+                  hizaladılar.Santorini'yi Yunanistan'da ekstra özel bir yer
+                  yapan gün batımı manzarasıdır.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card mb-4">
+              <div class="card-header">
+                <h5>Araştır</h5>
+              </div>
+              <div class="card-body">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Aramak istediğin yeri yaz..."
+                  />
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-secondary">
+                      Ara!
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  Daha Fazla Bilgi Edilenebilmek ve Güzel Yerleri Keşfedebilmek
+                  için Tıkla!
+                </h5>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Rusya">Rusya</a>
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/An%C4%B1tkabir"
+                          >Anıtkabir</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/%C4%B0talya"
+                          >İtalya</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Fransa"
+                          >Fransa</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Japonya"
+                          >Japonya</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/T%C3%BCrkiye"
+                          >Türkiye</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Yunanistan"
+                          >Yunanistan</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          href="https://tr.wikipedia.org/wiki/Kutup_%C4%B1%C5%9F%C4%B1klar%C4%B1"
+                          >Kuzey ışıkları</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Peru">Peru</a>
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Norve%C3%A7"
+                          >Norveç</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/H%C4%B1rvatistan"
+                          >Hırvatistan</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/M%C4%B1s%C4%B1r"
+                          >Mısır</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Kanada"
+                          >Kanada</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://tr.wikipedia.org/wiki/Kore">Kore</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 mt-5">
+            <div id="slider2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider3"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider3" data-slide-to="1"></li>
+                <li data-target="#slider3" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/hırvatistan/dino-puzzle-1000-parca-plitvice-golleri-hirvatistan-19.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/hırvatistan/plitvice_lakes_national_park_picture3.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/hırvatistan/thumbs_b2_79a26a07c86c4ab4c392947fa60dbc31.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a href="#slider2" class="carousel-control-prev" data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a href="#slider2" class="carousel-control-next" data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">
+                  Plitvice Gölleri Milli Parkı,Hırvatistan
+                </h4>
+                <p class="card-text">
+                  Yürüyüş parkurları ve yaya geçitleriyle dolu olan Plitvice
+                  Gölleri Milli Parkı ,Hırvatistan'a seyahat eden herkes için
+                  bir ziyaret noktasıdır.Parkta sonsuz uzunluktaki ağaçlar,16
+                  teraslı göl ve tonlarca bitişik şelale bulacaksınız.Su
+                  havuzları, park boyunca zümrüt yeşili ile turkuaz ve derin
+                  maviye kadar farklı renklere sahiptir.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <div
+                class="card-header font-italic"
+                style="text-align: center; color: white; background-color: blue"
+              >
+                <h4><a href="#Hakkımda" id="Hakkımda"></a>Hakkımda</h4>
+              </div>
+              <div class="card-body" style="text-align: center">
+                Oluşturduğum blogta bahsettiğim bazı yerlere bende
+                gitmedim.Araştırarak bazı bilgiler edindim.Umarım gitmeye fırsat
+                bulurum ve siz bu küçük blogu umarım beğenirsiniz :)
+              </div>
+            </div>
+            <div class="card mt-4 primary">
+              <div
+                class="card-header font-italic"
+                style="text-align: center; color: white; background-color: blue"
+              >
+                <h4><a href="#İletişim" id="İletişim"></a>İletişim</h4>
+              </div>
+              <div class="card-body" style="text-align: center">
+                <form id="contact-form">
+                  <div class="form-group">
+                    <input type="text" id="name" placeholder="Adınız" />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="email"
+                      placeholder="Email Adresiniz"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="phone"
+                      placeholder="Telefon numaranız"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      id="message"
+                      cols="30"
+                      rows="5"
+                      placeholder="Mesaj"
+                    ></textarea>
+                  </div>
+                  <button class="btn btn-primary">Gönder</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 mt-5">
+            <div id="slider4" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider5"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider5" data-slide-to="1"></li>
+                <li data-target="#slider5" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/mısır-piramitleri/kirmizi-tonlar-kizil-piramit_12_kizil-1554038781.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/mısır-piramitleri/uc-guzeller-giza-piramitleri_12_giza-1554038295.jpeg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/mısır-piramitleri/yari-insan-yari-aslan-sfenks_12_sfenks-1554037626.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a href="#slider4" class="carousel-control-prev" data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a href="#slider4" class="carousel-control-next" data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">Mısır Piramitleri,Mısır</h4>
+                <p class="card-text">
+                  Milattan önce yaklaşık 2500'lü yıllarda inşa edildikleri
+                  tahmin edilen Mısır Piramitleri, üst üste konulan ve tanesi
+                  bir kaç tonluk kireç taşlarından oluşan yapılardır. Dönemin
+                  firavunlarına mezar olarak inşa edilen bu piramitler,
+                  başlarında bulunan mimarlar, mühendisler ve başka uzmanların
+                  yönlendirmesiyle Mısır'lı işçiler tarafından büyük çaba ve
+                  emeklerle oluşturulmuş nadide yapılardır. Mısır'da bulunan Nil
+                  Nehri'nin hemen batısında bulunan piramitlerin bu kadar büyük
+                  olmasının sebebi ise dönem halkının piramitler ne kadar büyük
+                  olursa firavunlarının da cennete o kadar yakın olacağına
+                  inanmalarından kaynaklanmaktadır.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mt-5">
+            <div id="slider6" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider7"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider7" data-slide-to="1"></li>
+                <li data-target="#slider7" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/kapadokya/istockphoto-1185460665-170667a.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/kapadokya/kapadokya-otelleri-1155x675.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/kapadokya/tsr93146637139980100687733.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a href="#slider6" class="carousel-control-prev" data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a href="#slider6" class="carousel-control-next" data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">Kapadokya,Türkiye</h4>
+                <p class="card-text">
+                  Koni şeklindeki kaya oluşumları ve çarpıcı sıcak hava balonu
+                  ekranlarıyla tanınan bu hedef,birçok gezgin listesinde haklı
+                  bir zorunluluk haline geldi.Güneş doğarken,bir peri masalı
+                  sahnesinin tadını çıkarmak için bölgenin üzerinde bir sıcak
+                  hava balonu ile gezin ve dünyanın en güzel yerlerinden birini
+                  havadan da görmüş olmanın tadını kaçırın.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mt-5">
+            <div id="slider8" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider9"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider9" data-slide-to="1"></li>
+                <li data-target="#slider9" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/japonya/fX8FhqhIdUymVMN-dYazRQ.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/japonya/japan-arashiyama-bamboo-forest-sky-green-kyoto-landmark-idyllic-attraction.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/japonya/unnamed.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a href="#slider8" class="carousel-control-prev" data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a href="#slider8" class="carousel-control-next" data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">
+                  Arashiyama Bambu Korusu,Japonya
+                </h4>
+                <p class="card-text">
+                  Bambu ormanı tamamen nefes kesici bir yer.Kyotu'nun
+                  eteklerinde kısa bir otobüs yolculuğu mesafesinde olan
+                  Arashiyama Bamboo Grove güzelliği,eşsiz doğa sesleri ve doğal
+                  ışığıyla ünlüdür.Seyahat ederken doğaya bağlamak
+                  istiyorsanız,bu kaçırmayacağınız bir deneyimdir.Sadece Japon
+                  yerel kültürünü yaşamakla kalmayacak,aynı zamanda Tokyo gibi
+                  daha büyük şehirlere kıyasla çok farklı bir yaşam hızına şahit
+                  olucaksınız.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mt-5">
+            <div id="slider10" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider11"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider11" data-slide-to="1"></li>
+                <li data-target="#slider11" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/kanada/5fce176d5542851be81841b1.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/kanada/6007ea79d3806c59087d6a17.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/kanada/banfnatii-1596539957103.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a
+                href="#slider10"
+                class="carousel-control-prev"
+                data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a
+                href="#slider10"
+                class="carousel-control-next"
+                data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">
+                  Banff Ulusal Parkı,Kanada
+                </h4>
+                <p class="card-text">
+                  Bu muhteşem manzara Rocky Dağları'nı içermesine
+                  rağmen,bölgedeki göller Banff Ulusal Parkı'nı özel
+                  kılıyor.Yansıtılmış dağ manzarası ve tonlarca yaban hayatı ile
+                  turkuaz buzul suları-bunu Moraine Gölü,Louise Gölü ve
+                  Minnewanka Gölü gibi bölgenin en ünlü göllerinden bazılarında
+                  bulacaksınız.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mt-5">
+            <div id="slider12" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider13"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider13" data-slide-to="1"></li>
+                <li data-target="#slider13" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/peru/5fcd5d295542872c44ce2fcc.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/peru/machu-picchu-peru.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/peru/mari-pichu_7474.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a
+                href="#slider12"
+                class="carousel-control-prev"
+                data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a
+                href="#slider12"
+                class="carousel-control-next"
+                data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">Machu Picchu,Peru</h4>
+                <p class="card-text">
+                  Dünyanın en ünlü yerlerinden biri olan İnka kalesi,her
+                  yolcunun seyahat listesinde yer alır ve bu da ölmeden önce
+                  ziyaret edilmesi gereken en güzel yerlerden biridir.Güzelliği
+                  başka hiçbir şeye benzemez ve dünyanın yedi harikasından biri
+                  olarak sıralanır.Yüksek Ander Dağları, siteye ulaşmak zor
+                  olabilir.Machu Picchu'nun nefes kesen yüksekliklerine ulaşmak
+                  için treni yakalayın veya Inca Trail'e yürüyün ,buna değecek
+                  söz veriyorum.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mt-5">
+            <div id="slider14" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider15"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider15" data-slide-to="1"></li>
+                <li data-target="#slider15" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/pamukkale/pamukkale-de-nerede-kalinir.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/pamukkale/denizli.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/pamukkale/pamukkale-turu.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a
+                href="#slider14"
+                class="carousel-control-prev"
+                data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a
+                href="#slider14"
+                class="carousel-control-next"
+                data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">Pamukkale,Türkiye</h4>
+                <p class="card-text">
+                  Kar beyazı kireçtaşı ve mavi sularıyla tanınan bu Pamukkale
+                  travertenleri,dünyanın ziyaret edebileceği en havalı yerlerden
+                  biridir.Bu güzel destinasyondaki sular yavaşça dağın kenarına
+                  damlar ve sonsuzluk havuzuna yeni bir anlam verir.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 mt-5">
+            <div id="slider16" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slider17"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#slider17" data-slide-to="1"></li>
+                <li data-target="#slider17" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/italya/94TU7NM4AGeKkoer-636643266335048832.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/italya/GxETDhLRv0OuCnfHiKikiw.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/italya/Manarola-1920x960.jpg"
+                    alt=""
+                    class="d-block w-100"
+                    style="height: 400px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <a
+                href="#slider16"
+                class="carousel-control-prev"
+                data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a
+                href="#slider16"
+                class="carousel-control-next"
+                data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+            <div
+              class="card"
+              style="
+                background-color: rgb(0, 68, 255);
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <div class="card-body">
+                <h4 class="card-title font-italic">Cinque Terre,İtalya</h4>
+                <p class="card-text">
+                  Yerliler ve turistler için bir tatil yeri olan Cinque Terre
+                  gerçekten gezmeye değer.Beş köyden oluşan bu güzel hedefe
+                  araba,tren veya teknelerle erişebilirsiniz.Cinque
+                  Terre,otantik İtalyan yemekleri,uçurum kenarındaki yürüyüş
+                  yolları,sahil manzaraları ile yerel İtalyan kültürüyle
+                  doludur.
+                </p>
+              </div>
+              <div
+                class="card-footer text-muted"
+                style="opacity: 0.8; background-color: rgb(248, 248, 248)"
+              >
+                10 Aralık,2021 tarihinde yayınlandı.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-5 py-5 bg-dark text-white text-center">
+      Copyright © 2021. Tüm hakları saklıdır.
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
